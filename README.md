@@ -1,14 +1,14 @@
-##💳 SwiftUI Wallet App
+**💳 SwiftUI Wallet App**
 
 A simple digital wallet interface built with SwiftUI that allows users to enter payment card information, customize the card’s appearance, and preview the card in real time.
 
 This project focuses on modern SwiftUI development patterns, clean UI design, and state-driven user interaction.
 
-##📱 Features
+**📱 Features**
 
-Add cardholder and bank information
+* Add cardholder and bank information
 
-Select card type (Visa, etc.)
+* Select card type (Visa, etc.)
 
 Enter card details (number, CVV, expiration date)
 
@@ -18,7 +18,7 @@ Live card preview displayed in a modal sheet
 
 Clean, responsive SwiftUI layout using Form and Section
 
-##🛠️ Technologies Used
+**🛠️ Technologies Used**
 
 Swift
 
@@ -32,7 +32,7 @@ Modal presentation with .sheet
 
 Custom UI components and styling
 
-##📸 Preview
+**📸 Preview**
 
 When a user taps “Add Card to Wallet”, a preview of the card is displayed showing:
 
@@ -50,7 +50,7 @@ Cardholder name
 
 Selected card color
 
-##🚀 Getting Started
+**🚀 Getting Started**
 Prerequisites
 
 macOS
@@ -79,7 +79,7 @@ Build and run the project using an iOS Simulator or device.
 ├── CardType.swift          # Enum for card types
 ├── Colors.swift            # Predefined card colors
 
-##🧠 What I Learned
+**🧠 What I Learned**
 
 Managing UI state with @State
 
@@ -93,7 +93,7 @@ Formatting dates for display
 
 Creating clean, user-friendly interfaces
 
-##🔮 Future Improvements
+**🔮 Future Improvements**
 
 Input validation and formatting (card number, CVV)
 
@@ -105,7 +105,7 @@ Support for multiple saved cards
 
 Animations and transitions
 
-##👤 Author
+**👤 Author**
 
 Aidan Lei and Aryan Khana
 Built on 2/14/25
