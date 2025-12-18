@@ -10,45 +10,45 @@ This project focuses on modern SwiftUI development patterns, clean UI design, an
 
 * Select card type (Visa, etc.)
 
-Enter card details (number, CVV, expiration date)
+* Enter card details (number, CVV, expiration date)
 
-Choose a custom card color
+* Choose a custom card color
 
-Live card preview displayed in a modal sheet
+* Live card preview displayed in a modal sheet
 
-Clean, responsive SwiftUI layout using Form and Section
+* Clean, responsive SwiftUI layout using Form and Section
 
 **🛠️ Technologies Used**
 
-Swift
+* Swift
 
-SwiftUI
+* SwiftUI
 
-@State for reactive UI updates
+* @State for reactive UI updates
 
-Form, Picker, DatePicker
+* Form, Picker, DatePicker
 
-Modal presentation with .sheet
+* Modal presentation with .sheet
 
-Custom UI components and styling
+* Custom UI components and styling
 
 **📸 Preview**
 
 When a user taps “Add Card to Wallet”, a preview of the card is displayed showing:
 
-Bank name
+* Bank name
 
-Card type
+* Card type
 
-Card number
+* Card number
 
-Expiration date
+* Expiration date
 
-CVV
+* CVV
 
-Cardholder name
+* Cardholder name
 
-Selected card color
+* Selected card color
 
 **🚀 Getting Started**
 Prerequisites
@@ -62,48 +62,50 @@ iOS 17+ Simulator or device
 Installation
 
 Clone the repository:
-
+```
 git clone https://github.com/orius7/Potluck-main.git
-
+```
 
 Open the project in Xcode:
-
+```
 open WalletApp.xcodeproj
-
+```
 
 Build and run the project using an iOS Simulator or device.
 
 📂 Project Structure
+```
 ├── ContentView.swift        # Main form and input handling
 ├── CardPreviewView.swift   # Card preview UI
 ├── CardType.swift          # Enum for card types
 ├── Colors.swift            # Predefined card colors
+```
 
 **🧠 What I Learned**
 
-Managing UI state with @State
+* Managing UI state with @State
 
-Structuring SwiftUI views for reusability
+* Structuring SwiftUI views for reusability
 
-Building interactive forms
+* Building interactive forms
 
-Presenting modal views with custom detents
+* Presenting modal views with custom detents
 
-Formatting dates for display
+* Formatting dates for display
 
-Creating clean, user-friendly interfaces
+* Creating clean, user-friendly interfaces
 
 **🔮 Future Improvements**
 
-Input validation and formatting (card number, CVV)
+* Input validation and formatting (card number, CVV)
 
-Masking sensitive card information
+* Masking sensitive card information
 
-Persisting cards using local storage
+* Persisting cards using local storage
 
-Support for multiple saved cards
+* Support for multiple saved cards
 
-Animations and transitions
+* Animations and transitions
 
 **👤 Author**
 
